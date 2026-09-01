@@ -12,4 +12,4 @@ while True:
         break
 print(numeros)
 soma = sum(numeros)
-print(f"A soma dos numeros informados é: {soma}")
+print(f"A soma dos numeros informados é: ")
