@@ -18,19 +18,24 @@ titulo = ctk.CTkLabel(janela,
 titulo.pack()
 
 login = ctk.CTkEntry(janela,
-                        width=400,
+                        width=200,
                         height=40,
-                        border_color='red',
+                        border_color='blue',
                         placeholder_text='Informe o Login: ')
 login.pack(pady=30)
 
 senha = ctk.CTkEntry(janela,
-                        width=400,
+                        width=200,
                         height=40,
-                        border_color='red',
+                        border_color='blue',
                         placeholder_text='Informe a Senha: ',
                         show='*')
 senha.pack(pady=30)
+
+lembrar = ctk.CTkCheckBox(janela,
+                        text='Lembrar-me',
+                        text_color='red')
+lembrar.pack(pady=30)
 
 butao = ctk.CTkButton(janela,
                         width=200,
