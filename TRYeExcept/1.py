@@ -9,6 +9,8 @@ while True:
         soma = n1 + n2
         break
     except ValueError:
-        print("Informe apenas Números")
+        print("Informe apenas Números ")
+        
 
 print(f"A soma dos Numeros é: {soma}")
+
